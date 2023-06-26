@@ -1,0 +1,1059 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+
+}
+
+.border:hover{
+
+    border: 1.5px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.nav-logo{
+
+    height:50px;
+    /* width: 113px; */
+    width: 7%;
+
+}
+
+.logo{
+    
+    width: 100%;
+    height: 50px;
+    background-image: url(https://www.joemygod.com/wp-content/uploads/2019/02/AmazonLOGO.png);
+    background-size:cover ;
+}
+
+/** second box **/
+
+.nav-address{
+
+    text-align: center;
+    
+    padding: 10px 5px 10px 5px;
+
+
+}
+
+.add-icon{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.add-first{
+
+    color:#cccccc;
+    font-size:0.80rem;
+    margin-left:15px;
+
+}
+
+.add-sec{
+
+
+    font-size: 1rem;
+    margin-left: 5px;
+
+
+}
+
+/** box3 **/
+
+.nav-search{
+
+    display: flex;
+    width: 920px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+
+}
+
+.nav-search:hover{
+
+    border:2px solid orange;
+    border-radius: 5px;
+
+}
+
+.search-select{
+
+    width: 60px;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: none;
+
+}
+
+.search-input{
+
+    width:100%;
+    height:40px;
+    font-size: 1rem;
+    border: none;
+    
+
+}
+
+
+.search-icon{
+
+    background-color: #febd68;
+    color: #0f1111;
+    width:45px; 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.1rem;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.search-icon:hover{
+
+    background-color: orange;
+    cursor: pointer;
+
+}
+
+/** box 4 **/
+
+.nav-singing{
+
+    padding:10px;
+}
+
+.nav-return{
+
+    padding:10px;
+
+}
+
+.nav-first-p{
+
+    font-size: 0.7rem;
+
+
+}
+
+.nav-sec-p{
+
+
+    font-size: 0.8rem;
+    font-weight: 700;
+
+}
+
+/** box 5 **/
+
+.nav-cart i {
+
+    font-size: 1.5rem;
+}
+
+
+.nav-cart{
+
+    font-size: 0.80rem;
+    font-weight: 700;
+    padding:10px;
+}
+
+/**  panel**/
+
+.panel{
+
+    height:40px;
+    background-color:#232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+
+}
+.panel-all{
+
+    left:10px;
+
+
+    font-weight: 700;
+
+    padding: 0.4rem;
+
+}
+
+/** panel 1 **/
+
+.panel-ops{
+
+    width: 70%;
+    font-size: 15px;
+    font-size: 0.8rem;
+}
+
+.panel-ops p {
+
+    display: inline;
+    
+    padding: 10px;
+    margin-right: 20px;
+    
+    font-size: 0.9rem;
+
+}
+
+.panel-deals{
+
+    font-weight: 700;
+
+    
+    padding: 0.4rem;
+
+}
+
+/** hero section **/
+
+.hero-section{
+
+    height: 600px;
+
+    background-image: url(https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+
+    width: 95%;
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    font-weight: 700px;
+    margin-bottom: 300px;
+}
+.hero-msg a {
+
+    text-decoration: none;
+    color: #007185;
+
+}
+
+.color-link-effect:hover {
+
+    color: rgb(185, 9, 9);
+
+
+
+} 
+/** shop section **/
+
+.shop-section{
+
+    display: flex;
+    justify-content:space-evenly;
+    width: 100% ;
+    
+    background-color: #e2e7e6;
+    margin: auto;
+}
+
+.box{
+
+    height:450px;
+    width: 22%;
+    background-color:white;
+    position: relative;
+    top:-250px;
+}
+
+/** inner img section **/
+
+.box1 h2{
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: relative;
+
+    top: 25px;
+    left: 20px;
+
+    
+
+
+}
+
+.img-box{
+
+    display: flex;
+    justify-content:space-evenly;
+
+
+    width: 100%;
+    height: 40%;
+
+    margin-top: 30px;
+
+
+
+}
+
+.img-headphone{
+
+    
+    width: 45%;
+    height:70%;
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61NZPCYSeVL._AC_SL1301_.jpg);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    margin-top: 5px;
+}
+.img-keyboard{
+
+    
+    width: 45%;
+    height:60%;
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/81+tv715ZFL._AC_SL1500_.jpg);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+    margin-top:5px;
+}
+
+.img-box_sec{
+
+    
+    display: flex;
+    justify-content:space-evenly;
+
+
+    width: 100%;
+    height: 40%;
+
+
+
+
+}
+
+
+.img-mice{
+
+    
+    width: 45%;
+    height:80%;
+
+    background-image: url(https://i5.walmartimages.com/asr/ba811093-851b-45da-ab4b-e62dd92c8e94.2cdab44bac1495e150c622bb56e6d490.jpeg);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.img-chair{
+
+    
+    width: 45%;
+    height:80%;
+
+    background-image: url(https://i5.walmartimages.com/asr/67708ea2-7034-4a02-9c32-c1006beaa5f4_1.e893298e4b41361869a5f5ea3d8e3463.jpeg);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.img-box p ,.img-box_sec p{
+
+    position: relative;
+    top: 150px;
+    left: 10px;
+    font-size: 12px;
+    color: #0F1111;
+    font-weight: 550;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.see-more_div{
+
+    font-size:13px;
+    color: #007185;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+}
+
+/** box2 **/
+
+
+.box2 h2{
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: relative;
+
+    top: 25px;
+    left: 20px;
+
+    
+
+
+}
+
+.img_sec2-box{
+
+    display: flex;
+    justify-content:space-evenly;
+
+
+    width: 100%;
+    height: 40%;
+
+    margin-top: 30px;
+
+
+
+}
+
+
+.img-one-1{
+
+    
+    width: 45%;
+    height:70%;
+
+    background-image: url(https://th.bing.com/th/id/OIP.vI_R65Xv9SOP2oU3VZG2kQHaHa?pid=ImgDet&w=640&h=640&rs=1);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    margin-top: 5px;
+}
+
+.img-sec-2{
+
+    
+    width: 45%;
+    height:70%;
+
+    background-image: url(https://th.bing.com/th/id/OIP.dTOGpPEsDJpo-GjH3YbtsAHaHa?pid=ImgDet&rs=1);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    margin-top: 5px;
+}
+.img-box_sec2{
+
+    
+    
+    display: flex;
+    justify-content:space-evenly;
+
+
+    width: 100%;
+    height: 40%;
+
+
+
+}
+
+
+.img-three-3{
+
+    
+    width: 45%;
+    height:70%;
+
+    background-image: url(https://th.bing.com/th/id/OIP.U5AuUj-n-1Im5t1mFwR10wHaHa?pid=ImgDet&w=800&h=800&rs=1);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    margin-top: 5px;
+}
+
+.img-four-4{
+
+    
+    width: 45%;
+    height:70%;
+
+    background-image: url(https://i.pinimg.com/originals/d6/8c/96/d68c962f77154ecbb288aa055e2356cb.png);
+
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    margin-top: 5px;
+}
+
+
+.img_sec2-box p ,.img-box_sec2 p{
+
+    position: relative;
+    top: 130px;
+    left: 10px;
+    font-size: 12px;
+    color: #0F1111;
+    font-weight: 550;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+/** box3 **/
+
+.baby-img-div{
+
+    width:85%;
+    height: 80%;
+
+    margin: auto;
+
+    position: relative;
+    
+    top:20px;
+
+
+
+
+}
+
+.baby_play-img-1{
+
+    width:100%;
+    height: 98%;
+    background-image: url(https://thumbs.dreamstime.com/b/toddler-girl-playing-toys-her-house-toddler-girl-playing-toys-98804328.jpg);
+    background-size: cover;
+
+    margin-bottom: 10px;
+
+
+
+}
+
+
+.box3 h2{
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: relative;
+
+    top: 25px;
+    left: 20px;
+
+    margin-bottom: 10px;
+
+
+}
+
+.box4 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+.bo4-extra-div{
+
+    width: 100%;
+
+    height:100%;
+    
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    
+    height: 90%;
+
+    background-color: white;
+
+
+
+}
+
+.box4 h2{
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    margin-top: 30px;
+
+
+}
+
+.box4 button{
+
+    background-color: rgb(255, 221, 0);
+
+    text-decoration: none;
+
+
+    font-size: 14px;
+
+    width: 80%;
+    height: 30px;
+
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight: 520;
+
+    border-radius: 5px;
+
+    border: none;
+
+}
+
+
+.box4 button:hover{
+
+    background-color: #ffd256;
+
+    cursor: pointer;
+
+}
+
+.last-1-line-img{
+
+    width:100%;
+
+    height: 66%;
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg);
+
+    background-size: cover;
+}
+
+.sec-shop-section{
+
+    height:450px;
+    width: 100%;  
+    
+    background-color: #e2e7e6;
+} 
+.sec-line-shopping{
+
+    
+    height:100%;
+    width: 100%; 
+    background-color: #e2e7e6;
+    position: relative;
+    top:-200px;
+    display: flex;
+    
+    justify-content:space-evenly;
+
+}
+
+.box0{
+
+    height:100%;
+    width: 22%;
+    background-color:white;
+    position: relative;
+}
+
+.box-01 h2{
+
+    
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    margin-top: 30px;
+
+
+
+}
+
+
+.sec-2-img-shop-div {
+
+    width: 80%;
+
+    margin: auto;
+    height:50%;
+
+    background-image: url(https://m.media-amazon.com/images/I/51NGf2Gok6L._AC_SY230_.jpg);
+
+    background-size:contain;
+
+    background-repeat: no-repeat;
+
+
+}
+
+.box-01 > p > span > button {
+
+    background-color: rgb(177, 7, 7);
+
+    border: none;
+
+    color: white;
+
+    padding: 8px;
+
+    border-radius:3px;
+
+    
+
+}
+
+.box-01 > p > span {
+
+    padding:5px;
+
+    margin: 20px;
+
+    margin-top:20px;
+
+
+
+}
+
+
+.box-01 > p > span > a {
+
+
+    font-size: 14px;
+
+    color:  rgb(177, 7, 7);
+
+    padding: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: 600;
+
+}
+
+.box-01 > span > p {
+
+    
+    display: inline-block;
+
+
+
+}
+
+.box-01 > span > div {
+
+    
+    display: flex;
+
+    padding: 3px;
+    
+
+
+
+}
+
+
+.box-01 h6 {
+
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 12px;
+
+}
+
+.span-2-in-box-01{
+
+    width: 70%;
+    display:flex;
+    margin: 10px;
+    
+   font-weight: 550;
+
+}
+
+.p-2-in-box-01 {
+
+    font-size: 11px;
+    color:#565959;
+    padding: 2px;
+   font-weight: 520;
+}
+.check-p-rate{
+
+    text-decoration: line-through;
+
+}
+
+.item-name-box01{
+
+    font-size:14px;
+    text-align: center;
+    color: #0F1111;
+    margin-bottom: 10px;
+
+}
+
+.box-01 > a {
+
+position: relative;
+top: 10px;
+}
+
+/** box 02**/
+
+
+.box-02 h2{
+
+    
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    margin-top: 30px;
+
+
+
+}
+
+
+.box-02_child-div{
+
+    display: flex;
+    height: 65%;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-02_box0{
+
+    
+    background-color: #007185;
+
+    width: 45%;
+
+    height:40%;
+
+
+
+}
+
+.box-02_box01{
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg);
+
+}
+
+.box-02_box02{
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg);
+
+
+}
+
+.box-02_box03{
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg);
+
+
+}
+
+.box-02_box04{
+
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg);
+
+
+}
+
+.box-02_child-div p {
+
+    position:relative;
+    bottom: -120px;
+
+    font-size: 12px;
+
+
+    color: #0F1111;
+    font-weight: 550;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
+}
+
+.box-02 a {
+
+    position: relative;
+    top: 50px;
+
+}
+
+/** box 03**/
+
+
+.box-03 h2{
+
+    
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    margin-top: 30px;
+
+}
+
+
+
+.box-03-image{
+
+    width: 90%;
+
+    height: 70%;
+
+    background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg);
+
+    margin: 5%;
+
+    background-size: cover;
+
+}
+
+/** 04**/
+
+
+
+.box-04 h2{
+
+    
+
+    font-size:21px;
+
+    
+    color: #0f1111;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: left;
+
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+    margin-top: 30px;
+
+}
+
+
+.box-04-image{
+    width: 90%;
+
+    height: 70%;
+
+    margin-right: 3% 5% 3% 5%  ;
+
+    background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg);
+
+    background-size: container;
+
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+.box-04 a {
+
+    position: relative;
+    top: 20px;
+
+
+
+}
+
